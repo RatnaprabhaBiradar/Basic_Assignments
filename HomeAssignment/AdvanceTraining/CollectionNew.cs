@@ -14,6 +14,10 @@ namespace HomeAssignment.AdvanceTraining
     }
     public class Emp:IComparable
     {
+        public Emp()
+        {
+
+        }
         public int EmpId { get;
             set;
         }
